@@ -108,7 +108,7 @@ Install Dependencies
 
 Run App
 
-```streamlit run streamlit_app.py```
+```text streamlit run streamlit_app.py```
 
 Open in Browser — Streamlit will provide a local URL.
 
@@ -118,5 +118,6 @@ Deployment
 This project is deployed on Streamlit Cloud.
 
 Live - https://adspent.streamlit.app/
+
 
 
