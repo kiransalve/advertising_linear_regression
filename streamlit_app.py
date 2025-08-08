@@ -80,7 +80,7 @@ newspaper = st.number_input("Newspaper Spend", min_value=0.0)
 
 
 if st.button("Predict"):
-    new_data = [[tv, radio, newspaper]]
+    new_data = np.array([[tv, radio, newspaper]])
     predicted_sales = model.predict(new_data)[0]
     st.success(f"✅ Predicted Sales: ₹{round(predicted_sales, 2)} lakhs")
 
