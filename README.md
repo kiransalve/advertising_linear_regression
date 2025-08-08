@@ -1,5 +1,7 @@
 # 📊 Sales Prediction App — Linear Regression (Streamlit)
 
+Live - https://adspent.streamlit.app/
+
 ## 📝 Introduction
 This is an **interactive Machine Learning web application** built using **Streamlit** that predicts **product sales** based on **advertising spend** on TV, Radio, and Newspaper.  
 It’s designed to demonstrate my skills in:
@@ -103,12 +105,11 @@ advertising_linear_regression/
 
 Install Dependencies
 
-```pip install -r requirements.txt
-```
+pip install -r requirements.txt
 
 Run App
 
-```text streamlit run streamlit_app.py```
+streamlit run streamlit_app.py
 
 Open in Browser — Streamlit will provide a local URL.
 
@@ -118,6 +119,7 @@ Deployment
 This project is deployed on Streamlit Cloud.
 
 Live - https://adspent.streamlit.app/
+
 
 
 
